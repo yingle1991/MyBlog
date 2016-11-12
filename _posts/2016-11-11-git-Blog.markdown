@@ -69,7 +69,7 @@ tags:
 
 - 新建主页，我们博客访问的页面
 
-    <div>
+    ```<div>
     <blockquote>
     <p>　　---<br>
     　　layout: default<br>
@@ -83,7 +83,8 @@ tags:
     <p>　　　　{% endfor %}</p>
     <p>　　&lt;/ul&gt;</p>
     </blockquote>
-    </div>
+    </div>```
+
 它的Yaml文件头表示，首页使用default模板，标题为"我的Blog"。然后，首页使用了`{% for post in site.posts %}`，表示对所有帖子进行一个遍历。这里要注意的是，Liquid模板语言规定，输出内容使用两层大括号，单纯的命令使用一层大括号。至于{{site.baseurl}}就是_config.yml中设置的baseurl变量。
 
 - 最后在注册的github上新建个MyBlog，上传新建的项目，
