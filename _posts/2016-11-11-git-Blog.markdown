@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:     keynote
 title:      "用git与jelly 搭建面向世界的博客"
 subtitle:   "----github Pages和Jekyll入门"
 date:       2016-11-11
