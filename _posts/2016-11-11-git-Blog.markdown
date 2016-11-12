@@ -26,45 +26,32 @@ tags:
 <Strong>第四步:</strong>创建模版文件目录 _layouts 存放所有模版文件
 
 <Strong>第五步:</strong>创建default.html 
-    <blockquote>
-    
-    <p>　　&lt;!DOCTYPE html&gt;</p>
-    
-    <p>　　&lt;html&gt;</p>
-    
-    <p>　　&lt;head&gt;</p>
-    
-    <p>　　　　&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" /&gt;</p>
-    
-    <p>　　　　&lt;title&gt;{{ page.title }}&lt;/title&gt;</p>
-    
-    <p>　　&lt;/head&gt;</p>
-    
-    <p>　　&lt;body&gt;<br>
-     <br>
-    　　　　{{ content }}<br>
-      <br>
-    　　&lt;/body&gt;</p>
-    
-    <p>　　&lt;/html&gt;</p>
-    
-    </blockquote>
+   <blockquote>
+   <!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8">
+　　　　<title>{{ page.title }}</title>
+　　</head>
+　　<body>
+
+　　　　{{ content }}
+
+　　</body>
+　　</html>
+</blockquote>
 
 <Strong>第六步：</strong>创建文章目录 _posts 存放自己的博客
 
 <Strong>第七步：</strong>创建第一个post
     <blockquote>
-    
-    <p>　　---<br>
-    　　layout: default<br>
-    　　title: 你好，世界<br>
-    　　---</p>
-    
-    <p>　　&lt;h2&gt;{{ page.title }}&lt;/h2&gt;</p>
-    
-    <p>　　&lt;p&gt;我的第一篇文章&lt;/p&gt;</p>
-    
-    <p>　　&lt;p&gt;{{ page.date | date_to_string }}&lt;/p&gt;</p>
+        ---
+    　　layout: default
+    　　title: 你好，世界
+    　　---
+    　　<h2>{{ page.title }}</h2>
+    　　<p>我的第一篇文章</p>
+    　　<p>{{ page.date | date_to_string }}</p>
     
     </blockquote>
 
