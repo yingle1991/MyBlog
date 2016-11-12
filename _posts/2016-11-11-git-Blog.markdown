@@ -22,7 +22,6 @@ tags:
 - 创建设置文件 _config.yml 添加内容 baseurl: /MyBlog
 - 创建模版文件目录 _layouts 存放所有模版文件
 - 创建default.html 
-    <div>
     <blockquote>
     
     <p>　　&lt;!DOCTYPE html&gt;</p>
@@ -46,7 +45,7 @@ tags:
     <p>　　&lt;/html&gt;</p>
     
     </blockquote>
-    </div>
+
 - 创建文章目录 _posts 存放自己的博客
 - 创建第一个post
     <blockquote>
@@ -69,7 +68,6 @@ tags:
 
 - 新建主页，我们博客访问的页面
 
-    ```<div>
     <blockquote>
     <p>　　---<br>
     　　layout: default<br>
@@ -83,7 +81,6 @@ tags:
     <p>　　　　{% endfor %}</p>
     <p>　　&lt;/ul&gt;</p>
     </blockquote>
-    </div>```
 
 它的Yaml文件头表示，首页使用default模板，标题为"我的Blog"。然后，首页使用了`{for post in site.posts }`，表示对所有帖子进行一个遍历。这里要注意的是，Liquid模板语言规定，输出内容使用两层大括号，单纯的命令使用一层大括号。至于{{site.baseurl}}就是_config.yml中设置的baseurl变量。
 
