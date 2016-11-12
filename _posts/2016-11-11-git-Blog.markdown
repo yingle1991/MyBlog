@@ -71,11 +71,11 @@ tags:
 
 <blockquote>
 
-<p>　　
+<p>
   ---<br>
 　　layout: default<br>
 　　title: 我的Blog<br>
-　　---
+　　---<br>
 </p>
 <p>　　&lt;h2&gt;{{ page.title }}&lt;/h2&gt;</p>
 <p>　　&lt;p&gt;最新文章&lt;/p&gt;</p>
