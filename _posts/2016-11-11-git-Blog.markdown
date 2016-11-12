@@ -68,14 +68,12 @@ tags:
 在yaml文件头后面，就是文章的正式内容，里面可以使用模板变量。{{ page.title }}就是文件头中设置的"你好，世界"，{{ page.date }}则是嵌入文件名的日期（也可以在文件头重新定义date变量），"| date_to_string"表示将page.date变量转化成人类可读的格式。
 
 - 新建主页，我们博客访问的页面
-
 <div>
 <blockquote>
 <p>　　---<br>
 　　layout: default<br>
 　　title: 我的Blog<br>
 　　---</p>
-
 <p>　　&lt;h2&gt;{{ page.title }}&lt;/h2&gt;</p>
 <p>　　&lt;p&gt;最新文章&lt;/p&gt;</p>
 <p>　　&lt;ul&gt; </p>
