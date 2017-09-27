@@ -6,7 +6,7 @@ email: yingle1991@gmail.com
 description: "IT 的灵魂召唤者 | 迎乐，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Zhyl 张迎乐 的个人博客，与你一起发现更大的世界。"
 keyword: "张迎乐, Zhyl张迎乐, 迎乐, 鬼栈, 迎乐的博客, Zhyl Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品"
 #url: "https://huangxuan.me"              # your host, for absolute URL
-baseurl: "/MyBlog"                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
